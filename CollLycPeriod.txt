@@ -1,0 +1,82 @@
+
+
+
+Collègien :
+---------
+Apple IIc : tentatives graphiques basic
+==> trop lent pour créer un jeu !
+
+Mac+ : Utilisation de resedit pour manipuler les ressources.
+- Modification du jeu darkcastle, par substitution des hits maps entre le personnage et les cailloux lancer ==> le personnage devient presque invulnerable.
+
+Mac+ : Premier prorgramme un casse brique inspire de l'exemple d'un livre (turbo pascal)
+= Turbo pascal
+==> problème rencontré : c'est long de tout taper au clavier ...
+--> solution du problème : apprendre à utiliser un clavier. (dactylographie, 50 mots minutes)
+
+Mac+ : Creation d'un jeu à deux joueurs, il s'agit de deux mobiles qui peuvent se lancer des billes.
+= Turbo pascal
+- Les mobiles rebondissent sur l'exterieur des ecrans
+- Les joueurs jouent à la souris et au clavier (pour controler l'acceleration)
+- Les collisions donnent lieu à des effets physiques (algorithme adoc non conforme aux equations physiques des collisions)
+==> problème rencontré : périodiquement des glitch graphiques apparaissent à l'écran 
+(probablement lié à la gestion des projectiles hors écran)
+
+
+Lycéen :
+-------
+Mac+ : Mini "sim city" simplifié
+= Turbo pascal
+- Permet de placer des routes. 
+- Permet à des maisons de s'installer
+- Utilisation des graphismes noir et blanc de la version "sim city" pour  mac.
+- Les routes tournent et se croisent correctement (modification de l'image en fonction du contexte)
+
+Mac+ : Simulation du vivant
+= C++ (Ide Borland)
+- Apprentissage des bases du C++ (bjarne strousstrup edition 2)
+- Des cellules bougent au hasard sur l'écran, et se reproduisent parfois.
+- Les couleurs des cellules changent au cours du temps
+==> problème rencontré : l'ajout d'une fonction non appellée peut rendre le programme instable
+(probablement lié à un buffer overflow)
+
+Mac+ : Analyse de faisabilité d'un jeu, des élicoptères animés traverse l'écran.
+= Turbo pascal
+==> problème rencontré : l'affichage est trop lent (utilisation des "pictures")
+--> solution : utilisation de la bibliothèque standard de manipulation des bitmaps.
+
+Mac+ : 
+= Apprentissage de l'assembleur 68000
+= Consolidation des principes de la programmation Mac via Inside Macintosh (documentation technique)
+- Utilisation de resedit et macsbugs (debuger bas niveau) pour modifier le code assembleur des sharewares
+-- Rendre les personnages invulnérable
+-- Gagner du temps sur la saisie des mots de passe
+- Modification du logiciel simcity pour mac (Les noms de fonctions "debug" sont resté dans le code vendu sur la première version mac)
+-- La fonction gérant le départ des citoyens de la ville est modifiée pour que les citoyens n'aient jamais le désir de partir.
+==> problème rencontré : l'un des shareware utilise des appels dynamiques de fonctions. Les fonctions sont encodée sur disque.
+	 Une modification des branchement provoque une augmentation de la resistance des monstres !!
+--> solution : utilisation de macsbugs pour modifier directement la mémoire une fois le jump dynamique effectué.
+--> modification en mémoire du programme pour rendre invulnerable le personnage hero
+
+Mac+ :
+= Developpement d'extensions systemes
+- utilisation des fonctions standard de modifications des fonctions systèmes (patch des trappes en assembleur)
+- ecriture en c d'un extension qui ajoute un menu "fenetre" sur le finder. Le menu permet de selectionner une fenêtre et de la mettre en avant plan.
+
+Mac+ :
+= Experimentations
+- utilisation directe du pointeur ecran
+- programmation assembleur (68000) de fonctions d'affichages
+
+PC : 
+= Assembleur x86 
+- Experimentations avec les modes d'affichages, en assembleur 
+ 
+
+= Borland c++
+- Construction d'une ihm de go, pour jouer au go avec un ami.
+- Utilisation d'un mode graphique haute definition
+- Souris
+
+
+
